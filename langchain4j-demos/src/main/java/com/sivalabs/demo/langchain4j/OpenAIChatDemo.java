@@ -1,9 +1,9 @@
-package com.sivalabs.demo;
+package com.sivalabs.demo.langchain4j;
 
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.openai.OpenAiChatModel;
 
-public class LangChain4jOpenAIDemo {
+public class OpenAIChatDemo {
     
     public static void main(String[] args) {
         String openAiKey = "demo";

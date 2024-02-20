@@ -1,10 +1,10 @@
-package com.sivalabs.demo;
+package com.sivalabs.demo.langchain4j;
 
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.ollama.OllamaChatModel;
 import org.testcontainers.containers.GenericContainer;
 
-public class LangChain4jTestcontainersDemo {
+public class OllamaTestcontainersDemo {
     static String MODEL_NAME = "llama2";
   
     public static void main(String[] args) {

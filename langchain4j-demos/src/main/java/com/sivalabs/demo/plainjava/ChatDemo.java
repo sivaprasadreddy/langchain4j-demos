@@ -1,4 +1,4 @@
-package com.sivalabs.demo;
+package com.sivalabs.demo.plainjava;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;

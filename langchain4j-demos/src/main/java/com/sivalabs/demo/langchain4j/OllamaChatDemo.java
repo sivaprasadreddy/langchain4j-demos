@@ -1,9 +1,9 @@
-package com.sivalabs.demo;
+package com.sivalabs.demo.langchain4j;
 
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.ollama.OllamaChatModel;
 
-public class LangChain4jOllamaChatDemo {
+public class OllamaChatDemo {
 
     public static void main(String[] args) {
         ChatLanguageModel model = OllamaChatModel.builder()
