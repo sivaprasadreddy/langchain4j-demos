@@ -1,0 +1,5 @@
+Siva, born on 25 June 1983, is a software architect working in India.
+He started his career as a Java developer on 26 Oct 2006 and worked with other languages like Kotlin, Go, JavaScript, Python too.
+
+He authored "Beginning Spring Boot 3" book with Apress Publishers.
+He has also written "PrimeFaces Beginners Guide" and "Java Persistence with MyBatis 3" books with PacktPub.
