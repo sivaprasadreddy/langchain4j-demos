@@ -17,7 +17,7 @@
         <langchain4j.version>0.27.1</langchain4j.version>
         <junit.version>5.10.1</junit.version>
         <logback.version>1.5.0</logback.version>
-        <testcontainers.version>1.19.6</testcontainers.version>
+        <testcontainers.version>1.19.7</testcontainers.version>
     </properties>
 
     <dependencies>
