@@ -13,16 +13,15 @@ import java.util.List;
 public class ChatDemo {
     public static final String OPENAI_API_KEY = System.getenv("OPENAI_API_KEY");
     public static final String CHAT_URL = "https://api.openai.com/v1/chat/completions";
-    public final static String MODEL = "gpt-3.5-turbo";
-    public final static double TEMPERATURE = 0.7;
+    public static final String MODEL = "gpt-3.5-turbo";
+    public static final double TEMPERATURE = 0.7;
 
     static HttpClient client = HttpClient.newHttpClient();
     static ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) throws Exception {
-        ChatRequest chatRequest = new ChatRequest(
-                MODEL, List.of(new Message("user", "List all the movies directed by Quentin Tarantino")),
-                TEMPERATURE);
+        Message message = new Message("user", "List all the movies directed by Quentin Tarantino");
+        ChatRequest chatRequest = new ChatRequest(MODEL, List.of(message), TEMPERATURE);
         String requestPayload = mapper.writeValueAsString(chatRequest);
         
         HttpRequest request = HttpRequest.newBuilder()
