@@ -5,7 +5,7 @@ import dev.langchain4j.model.ollama.OllamaChatModel;
 import org.testcontainers.containers.GenericContainer;
 
 public class OllamaTestcontainersDemo {
-    static String MODEL_NAME = "llama2";
+    static String MODEL_NAME = "orca-mini"; // try "mistral", "llama2", "codellama", "phi" or "tinyllama"
   
     public static void main(String[] args) {
       GenericContainer<?> ollama = new GenericContainer<>("langchain4j/ollama-" + MODEL_NAME + ":latest")
