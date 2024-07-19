@@ -7,8 +7,9 @@ public class OllamaChatDemo {
 
     public static void main(String[] args) {
         ChatLanguageModel model = OllamaChatModel.builder()
+                //.baseUrl("http://192.168.0.103:11434")
                 .baseUrl("http://localhost:11434")
-                .modelName("llama2")
+                .modelName("llama3")
                 .build();
         String answer = model.generate("List all the movies directed by Quentin Tarantino");
         System.out.println(answer);
