@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+<div th:fragment="responseFragment" class="mb-8">
+    <div class="inline-block bg-slate-100 rounded-lg p-2 ml-auto" th:text="${message}">Message</div>
+    <p class="mt-4 h-full overflow-auto" th:utext="${response}">Response</p>
+</div>
+</body>

@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-class AssistantConfiguration {
+class LangChain4jConfig {
 
     @Bean
     ChatMemory chatMemory() {
